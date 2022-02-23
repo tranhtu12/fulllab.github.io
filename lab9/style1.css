@@ -1,0 +1,22 @@
+body{
+    font-variant: small-caps;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+}
+.boxcenter{
+    width: 430px;
+    height: 410px;
+    position: absolute;
+    left: 30%;
+    top: 150px;
+    border: 1px solid black;
+    
+}
+.log{
+    margin-left: 10px;
+}
+input[type="text"]{
+    width: 400px;
+    height: 20px;
+}

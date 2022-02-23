@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <form action="#">
+      <div class="form-group">
+        <label>
+          Họ và tên:
+          <br />
+          <input type="text" class="form-control" />
+        </label>
+      </div>
+      <div class="form-group">
+        <fieldset class="form-control">
+          <legend>Giới tính:</legend>
+          <input type="radio" /> Nam <input type="radio" /> Nữ
+        </fieldset>
+      </div>
+      <div class="form-group">
+        <label>
+          Ngày sinh:
+          <br />
+          <input type="date" class="form-control" />
+        </label>
+      </div>
+      <div class="form-group">
+        <label>
+          Điểm:
+          <br />
+          <input
+            type="number"
+            min="0"
+            max="9"
+            step="0.25"
+            class="form-control"
+          />
+        </label>
+      </div>
+      <div class="form-group">
+        <label>
+          Nghề nghiệp
+          <br
+        /></label>
+        <input list="job" class="form-control" />
+        <datalist id="job">
+          <option value="Cảnh sát"></option>
+          <option value="Nhân viên văn phòng"></option>
+          <option value="Công nhân"></option>
+          <option value="Lao động tự do"></option>
+          <option value="Bác sĩ"></option>
+        </datalist>
+      </div>
+      <fieldset class="form-control">
+        <legend>Sở thích:</legend>
+        <input type="checkbox" /> Thể thao <input type="checkbox" /> Du lịch
+        <input type="checkbox" /> Âm nhạc <input type="checkbox" /> Ẩm thực
+      </fieldset>
+      <div class="form-group">
+        <label> Ghi chú: </label>
+        <br />
+        <textarea
+          tabindex="2"
+          cols="40"
+          rows="5"
+          class="form-control"
+        ></textarea>
+      </div>
+      <div class="form-group">
+        <button class="form-button">Đăng kí</button>
+        <button class="form-button">Nhập lại</button>
+      </div>
+    </form>
+  </body>
+</html>
